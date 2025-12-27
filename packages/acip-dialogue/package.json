@@ -1,0 +1,61 @@
+{
+  "name": "@acip/dialogue",
+  "version": "0.1.0",
+  "description": "Human-AI Dialogue Protocol - Prompt templates and compliance validators for the ACIP ecosystem",
+  "type": "module",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "test": "vitest",
+    "test:coverage": "vitest --coverage",
+    "lint": "eslint src/",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [
+    "acip",
+    "ai",
+    "dialogue",
+    "protocol",
+    "ethics",
+    "trust",
+    "transparency",
+    "human-ai-interaction",
+    "prompt",
+    "chatbot"
+  ],
+  "author": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/acip-protocol/dialogue"
+  },
+  "bugs": {
+    "url": "https://github.com/acip-protocol/dialogue/issues"
+  },
+  "homepage": "https://acip-dialogue.dev",
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "tsup": "^8.0.0",
+    "typescript": "^5.3.0",
+    "vitest": "^1.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

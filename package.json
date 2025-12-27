@@ -1,0 +1,43 @@
+{
+  "name": "acip-dialogue-monorepo",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Human-AI Dialogue Protocol - A framework for trust, transparency, and ethical interaction",
+  "type": "module",
+  "scripts": {
+    "dev": "pnpm -F docs dev",
+    "build": "pnpm -r build",
+    "build:docs": "pnpm -F docs build",
+    "build:pkg": "pnpm -F acip-dialogue build",
+    "preview": "pnpm -F docs preview",
+    "test": "pnpm -F acip-dialogue test",
+    "lint": "eslint .",
+    "format": "prettier --write ."
+  },
+  "keywords": [
+    "ai",
+    "human-ai-interaction",
+    "dialogue",
+    "protocol",
+    "ethics",
+    "trust",
+    "transparency"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "esbuild-wasm": "^0.27.2",
+    "prettier": "^3.1.0",
+    "typescript": "^5.3.0"
+  },
+  "packageManager": "pnpm@9.0.0",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "pnpm": {
+    "overrides": {
+      "esbuild": "npm:esbuild-wasm@0.27.2"
+    }
+  }
+}
