@@ -40,12 +40,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/acip-protocol/dialogue"
+    "url": "https://github.com/Baozhi888/ACIP-Dialogue"
   },
   "bugs": {
-    "url": "https://github.com/acip-protocol/dialogue/issues"
+    "url": "https://github.com/Baozhi888/ACIP-Dialogue/issues"
   },
-  "homepage": "https://acip-dialogue.dev",
+  "homepage": "https://github.com/Baozhi888/ACIP-Dialogue#readme",
   "publishConfig": {
     "access": "public"
   },
